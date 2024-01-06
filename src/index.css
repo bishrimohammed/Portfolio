@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:ital,wght@0,500;1,400&display=swap");
+:root {
+  --aqua-color: #97fff4;
+  --background-color: rgb(25, 25, 36);
+}
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+a {
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", "Roboto" sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.71);
+  background-color: rgb(28, 28, 39);
+}
