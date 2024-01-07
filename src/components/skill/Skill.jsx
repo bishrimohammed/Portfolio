@@ -4,7 +4,7 @@ import htmllogo from "../../assets/HTML5_logo.png";
 import { SiRedux } from "react-icons/si";
 import { FaReact, FaHtml5 } from "react-icons/fa";
 
-import jsLogo from "../../assets/jsLogo.png";
+import jsLogo from "../../assets/jslogo.png";
 import cssLogo from "../../assets/logo-css-3.png";
 import bootstrapLogo from "../../assets/bootstraplogo.jpeg";
 import SingleSkill from "./components/SingleSkill";
@@ -61,6 +61,32 @@ const Skill = () => {
 
                 <div className="single-skill">
                   <img src={htmllogo} alt="" /> HTML
+                </div>
+                <div className="single-skill">
+                  <img src={cssLogo} alt="" /> CSS
+                </div>
+                <div className="single-skill">
+                  <img src={jsLogo} alt="" /> JavaScript
+                </div>
+                <div className="single-skill">
+                  <img src={bootstrapLogo} alt="" /> Bootstrap
+                </div>
+              </div>
+            </div>
+            <div className="skill-box-content ">
+              <h2 className="mb-4">Others</h2>
+              <div className="skill-list">
+                <SingleSkill
+                  logo={<FaReact size={24} color="rgb(97, 218, 251)" />}
+                  title="Docker"
+                />
+                <SingleSkill
+                  logo={<SiRedux size={24} color="rgb(113, 71, 183)" />}
+                  title="Git"
+                />
+
+                <div className="single-skill">
+                  <img src={htmllogo} alt="" /> Github
                 </div>
                 <div className="single-skill">
                   <img src={cssLogo} alt="" /> CSS

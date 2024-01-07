@@ -17,16 +17,14 @@ const Hero = () => {
                   <br /> Bishri Mohammed
                 </span>
               </h1>
-              <div className="d-flex justify-content-lg-start justify-content-center gap-3">
+              <div className="d-flex justify-content-lg-start flex-wrap justify-content-center gap-3">
                 <h2>I am a </h2>
                 <TypeAnimation
                   // preRenderFirstString={true}
                   style={{
-                    lineHeight: "68px",
-                    fontSize: 32,
-                    fontWeight: 600,
                     color: "yellow",
                   }}
+                  className="typed"
                   sequence={[
                     500,
                     " Mern Stack Developer", // initially rendered starting point
@@ -56,7 +54,7 @@ const Hero = () => {
                 <button>Download cv</button>
               </div>
             </div>
-            <div className="hero-img d-lg-block d-none">
+            <div className="hero-img d-lg-inline-flex d-none">
               <img src={img} alt="" className="img-fluid" />
             </div>
           </div>

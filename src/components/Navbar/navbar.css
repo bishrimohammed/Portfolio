@@ -113,6 +113,27 @@ header {
 }
 @media (max-width: 992px) {
   .collapse-container {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    /* gap: 2px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-collapse {
+    gap: 7px;
+  }
+  .nav-collapse a {
+    font-weight: 500;
+  }
+  .navbar-collapse {
+    /* justify-content: center; */
+    /* align-items: start; */
+  }
+  .github-btn {
+    /* width: 100%; */
+    padding: 20px;
+    justify-content: center;
   }
 }

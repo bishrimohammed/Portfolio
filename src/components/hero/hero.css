@@ -8,12 +8,12 @@
 }
 .hero-container {
   z-index: 1;
-  margin-top: 20px;
+  /* margin-top: -30px; */
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
   position: relative;
-  padding: 80px 30px;
+  padding: 70px 30px;
 }
 .hero-content {
   position: relative;
@@ -41,7 +41,8 @@
 /* .hero-text h1 span {
   color: yellow;
 } */
-.hero-text h2 {
+.hero-text h2,
+.typed {
   line-height: 68px;
   font-size: 32px;
   font-weight: 600;
@@ -54,6 +55,7 @@
 }
 .btns {
   margin-top: 20px;
+  display: flex;
 }
 .btns button {
   margin-right: 20px;
@@ -147,4 +149,17 @@
   background-color: var(--aqua-color);
   width: 400px;
   height: 400px;
+}
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .hero-text h2,
+  .typed {
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .btns {
+  }
 }

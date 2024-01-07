@@ -5,6 +5,7 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Skill from "./components/skill/Skill";
 import Navbar2 from "./components/Navbar/Navbar2";
+import Projects from "./components/project/Projects";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,10 +16,12 @@ function App() {
       <section>
         <Hero />
       </section>
-      <section>
+      <section id="skill">
         <Skill />
       </section>
-      <section>skill</section>
+      <section id="projects">
+        <Projects />
+      </section>
     </div>
   );
 }
