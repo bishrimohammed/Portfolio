@@ -18,7 +18,7 @@ const Navbar = () => {
           <a
             href="https://github.com/bishrimohammed"
             target="_blank"
-            className="align-self-center  border border-1"
+            className=""
             rel="noopener noreferrer"
           >
             Github Profile

@@ -6,23 +6,26 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
-header div:first-child {
+.nav-boot {
   padding: 0 24px;
   height: 60px;
   width: 100%;
   max-width: 1200px;
   z-index: 1;
 }
-.nav_logo {
-  color: yellow;
-  font-size: 40px;
-  width: 80%;
+.nav_logo-container {
+  width: 60%;
   display: flex;
   -webkit-box-pack: start;
   justify-content: start;
   -webkit-box-align: center;
   align-items: center;
+}
+.nav_logo {
+  color: yellow;
+  font-size: 40px;
 }
 .nav_logo span {
   color: yellow;
@@ -72,7 +75,7 @@ header div:first-child {
   padding: 0px 6px;
 }
 .github-btn a {
-  border: 1.8px solid rgb(133, 76, 230);
+  border: 1.8px solid yellow;
   -webkit-box-pack: center;
   justify-content: center;
   display: flex;
@@ -80,11 +83,36 @@ header div:first-child {
   align-items: center;
   height: 70%;
   border-radius: 20px;
-  color: rgb(133, 76, 230);
+  color: white;
   cursor: pointer;
   padding: 0px 20px;
   font-weight: 500;
   text-decoration: none;
   font-size: 16px;
+  position: relative;
+  overflow: hidden;
   transition: all 0.6s ease-in-out 0s;
+}
+.github-btn a:hover {
+  color: black;
+}
+.github-btn a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background-color: yellow;
+  z-index: -1;
+  transition: all 0.4s ease-in-out;
+}
+.github-btn a:hover:after {
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .collapse-container {
+    background-color: white;
+  }
 }

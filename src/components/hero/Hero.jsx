@@ -9,7 +9,7 @@ const Hero = () => {
       {/* <Navbar /> */}
       <div id="home" className="hero">
         <div className="hero-container">
-          <div className="hero-content">
+          <div className="hero-content text-lg-start text-center">
             <div className="hero-text">
               <h1>
                 Hi, I am
@@ -17,7 +17,7 @@ const Hero = () => {
                   <br /> Bishri Mohammed
                 </span>
               </h1>
-              <div className="d-flex gap-3">
+              <div className="d-flex justify-content-lg-start justify-content-center gap-3">
                 <h2>I am a </h2>
                 <TypeAnimation
                   // preRenderFirstString={true}
@@ -56,7 +56,7 @@ const Hero = () => {
                 <button>Download cv</button>
               </div>
             </div>
-            <div className="hero-img">
+            <div className="hero-img d-lg-block d-none">
               <img src={img} alt="" className="img-fluid" />
             </div>
           </div>

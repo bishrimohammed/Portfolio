@@ -20,7 +20,7 @@ const Skill = () => {
               past 2 years.
             </p>
           </div>
-          <div className="mt-5 skill-box">
+          <div className="mt-5 skill-box flex-lg-row flex-column">
             <div className="skill-box-content ">
               <h2 className="mb-4">Frontend</h2>
               <div className="skill-list">

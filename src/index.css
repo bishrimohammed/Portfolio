@@ -30,4 +30,5 @@ body {
   align-items: center;
   color: rgba(255, 255, 255, 0.71);
   background-color: rgb(28, 28, 39);
+  overflow-x: hidden;
 }
