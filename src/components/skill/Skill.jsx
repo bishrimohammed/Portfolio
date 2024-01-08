@@ -20,8 +20,8 @@ const Skill = () => {
               past 2 years.
             </p>
           </div>
-          <div className="mt-5 skill-box flex-lg-row flex-column">
-            <div className="skill-box-content ">
+          <div className="mt-5 skill-box flex-wrap flex-lg-row flex-column">
+            <div className="skill-box-content front">
               <h2 className="mb-4">Frontend</h2>
               <div className="skill-list">
                 <SingleSkill
@@ -47,7 +47,7 @@ const Skill = () => {
                 </div>
               </div>
             </div>
-            <div className="skill-box-content ">
+            <div className="skill-box-content back">
               <h2 className="mb-4">Backend</h2>
               <div className="skill-list">
                 <SingleSkill
@@ -73,7 +73,9 @@ const Skill = () => {
                 </div>
               </div>
             </div>
-            <div className="skill-box-content ">
+          </div>
+          <div className="mt-5 skill-box justify-content-start flex-lg-row flex-column">
+            <div className="skill-box-content  others">
               <h2 className="mb-4">Others</h2>
               <div className="skill-list">
                 <SingleSkill

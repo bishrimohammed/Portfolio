@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Skill from "./components/skill/Skill";
 import Navbar2 from "./components/Navbar/Navbar2";
 import Projects from "./components/project/Projects";
+import ContactMe from "./components/contact me/ContactMe";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +23,12 @@ function App() {
       </section>
       <section id="projects">
         <Projects />
+      </section>
+      <section id="contact">
+        <ContactMe />
+      </section>
+      <section>
+        <Footer />
       </section>
     </div>
   );

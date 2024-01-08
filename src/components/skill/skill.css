@@ -15,7 +15,8 @@
   -webkit-box-pack: center;
   justify-content: center;
   position: relative;
-  padding: 80px 30px;
+  /* padding: 80px 30px; */
+  padding: 70px 30px;
 }
 .skill-text {
   width: 100%;
@@ -41,9 +42,18 @@
   /* flex-wrap: wrap; */
   margin-top: 30px;
   gap: 30px;
-  -webkit-box-pack: center;
+  /* -webkit-box-pack: center; */
   justify-content: center;
 }
+.others {
+  justify-self: flex-start;
+}
+/* .skill-box-content.front {
+  justify-self: center;
+}
+.skill-box-content.back {
+  justify-self: center; 
+}*/
 .skill-box-content {
   width: 100%;
   max-width: 500px;

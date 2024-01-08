@@ -1,6 +1,6 @@
 import Navbar from "../Navbar/Navbar";
 import "./hero.css";
-import img from "../../assets/F2A3857_1660135787480_1660135869754.jpg";
+import img from "../../assets/photo_carton.jpg";
 
 import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="hero-content text-lg-start text-center">
             <div className="hero-text">
               <h1>
-                Hi, I am
+                <span style={{ fontSize: 20 }}> Hi, I am</span>
                 <span>
                   <br /> Bishri Mohammed
                 </span>

@@ -83,3 +83,9 @@
 .project__btn:hover {
   background-color: #0056b3;
 }
+
+@media (max-width: 992px) {
+  .project__container {
+    align-items: center;
+  }
+}

@@ -137,3 +137,8 @@ header {
     justify-content: center;
   }
 }
+@media (min-width: 992px) {
+  .collapse-container {
+    height: 100%;
+  }
+}

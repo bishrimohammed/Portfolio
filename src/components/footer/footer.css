@@ -1,0 +1,43 @@
+.footer-container {
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(23, 23, 32);
+  color: rgb(242, 243, 244);
+  position: relative;
+}
+/* .footer-container::before {
+  content: url("../../assets/wave3.svg");
+  height: 20px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: 1000;
+} */
+.footer-container h1 {
+  font-weight: 600;
+  color: yellow;
+  font-size: 20px;
+}
+.icon {
+  /* margin-right: 3px; */
+  cursor: pointer;
+}
+.icon-container a {
+  color: rgb(242, 243, 244);
+}
+.icon:hover {
+  color: yellow;
+}
+.footer-container p {
+  /* margin-top: 10px; */
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}

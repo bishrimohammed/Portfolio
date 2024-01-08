@@ -3,7 +3,7 @@ import clinic from "../../assets/clinic.png";
 import { Image } from "react-bootstrap";
 const Projects = () => {
   return (
-    <div className="project-section">
+    <div className="project-section ">
       <div className="project-text">
         <h2 className="section__title">Projects</h2>
         <p className="mb-5">
@@ -12,7 +12,7 @@ const Projects = () => {
         </p>
       </div>
 
-      <div className="project__container flex-lg-row flex-column">
+      <div className="project__container px-lg-5 flex-lg-row flex-column">
         <div className="project__card ">
           {/* <img src={clinic} alt="Project 1" className="project__image" /> */}
           <Image src={clinic} fluid thumbnail />
