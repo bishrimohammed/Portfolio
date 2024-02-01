@@ -10,16 +10,28 @@ const Footer = () => {
     <div className="footer-container">
       <h1>Bishri Mohammed</h1>
       <div className="icon-container d-flex gap-5 my-5">
-        <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.facebook.com/bishri.mohammed.56"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaFacebookSquare size={23} className="icon" />
         </a>
-        <a href="https://www.youtube.com" target="_blank" rel="noreferrer">
+        <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
           <FaInstagram size={23} className="icon" />
         </a>
-        <a href="https://www.youtube.com" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.linkedin.com/in/bishri-mohammed-3836541a4/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaLinkedin size={23} className="icon" />
         </a>
-        <a href="https://www.youtube.com" target="_blank" rel="noreferrer">
+        <a
+          href="https://twitter.com/bishrimohammed2"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaXTwitter size={23} className="icon" />
         </a>
 

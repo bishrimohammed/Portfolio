@@ -13,7 +13,7 @@
   -webkit-box-pack: center;
   justify-content: center;
   position: relative;
-  padding: 70px 30px;
+  padding: 50px 30px;
 }
 .hero-content {
   position: relative;
@@ -57,7 +57,8 @@
   margin-top: 20px;
   display: flex;
 }
-.btns button {
+.btns button,
+.downloadbtn {
   margin-right: 20px;
   padding: 5px 20px;
   width: 150px;
@@ -79,10 +80,12 @@
   border: 2px solid yellow;
   color: black;
   background-color: yellow;
+  box-shadow: rgba(255, 255, 0, 0.361) 0px 4px 15px;
 }
 .btns .hire-btn:hover {
   background-color: transparent;
   border: 2px solid white;
+  box-shadow: rgba(252, 252, 252, 0.361) 0px 4px 15px;
 }
 .btns .hire-btn::after {
   content: "";
@@ -94,17 +97,17 @@
   width: 0;
   background-color: white;
   z-index: -1;
-  transition: all 0.4s ease-in-out;
+  transition: 0.4s;
 }
 .btns .hire-btn:hover:after {
   width: 100%;
 }
-.btns button:nth-child(2) {
+.btns .downloadbtn {
   border: 2px solid yellow;
   background-color: transparent;
   color: rgb(182, 197, 202);
 }
-.btns button:nth-child(2)::after {
+.btns .downloadbtn::after {
   content: "";
   display: block;
   position: absolute;
@@ -116,12 +119,16 @@
   z-index: -1;
   transition: all 0.4s ease-in-out;
 }
-.btns button:nth-child(2):hover:after {
+.btns a {
+  text-decoration: none;
+}
+.btns .downloadbtn:hover:after {
   width: 100%;
   /* color: black; */
 }
-.btns button:nth-child(2):hover {
+.btns .downloadbtn:hover {
   color: black;
+  box-shadow: rgba(255, 255, 0, 0.361) 0px 4px 15px;
 }
 /* .btns button:hover {
  
@@ -137,12 +144,12 @@
   /* background-color: var(--aqua-color); */
 }
 .hero-img img {
-  border: 5px solid yellow;
+  /* border: 5px solid yellow; */
   border-radius: 50%;
   /* background-color: var(--aqua-color); */
   mix-blend-mode: multiply;
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   box-shadow: rgba(255, 255, 0, 0.361) 0px 4px 24px;
 }
 @media (max-width: 768px) {

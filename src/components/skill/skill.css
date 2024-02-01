@@ -39,21 +39,16 @@
 .skill-box {
   width: 100%;
   display: flex;
-  /* flex-wrap: wrap; */
+
   margin-top: 30px;
   gap: 30px;
-  /* -webkit-box-pack: center; */
+
   justify-content: center;
 }
 .others {
   justify-self: flex-start;
 }
-/* .skill-box-content.front {
-  justify-self: center;
-}
-.skill-box-content.back {
-  justify-self: center; 
-}*/
+
 .skill-box-content {
   width: 100%;
   max-width: 500px;
@@ -63,6 +58,11 @@
   border-radius: 16px;
   padding: 18px 36px;
   border: 1px solid yellow;
+  transition: 1s;
+  cursor: pointer;
+}
+.skill-box-content:hover {
+  transform: scale(1.05);
 }
 .skill-box-content h2 {
   font-size: 28px;

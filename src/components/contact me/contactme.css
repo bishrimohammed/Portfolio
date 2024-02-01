@@ -80,3 +80,8 @@ textarea {
     rgba(244, 230, 64, 0.8820320364473915) 87%
   );
 }
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 20px;
+  }
+}
