@@ -54,7 +54,7 @@
   color: rgba(242, 243, 244, 0.584);
 }
 .btns {
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
 }
 .btns button,
@@ -79,15 +79,16 @@
 .btns .hire-btn {
   border: 2px solid yellow;
   color: black;
-  background-color: yellow;
-  box-shadow: rgba(255, 255, 0, 0.361) 0px 4px 15px;
+  background-color: white;
+  /* box-shadow: rgba(255, 255, 0, 0.361) 0px 4px 15px; */
+  border: 2px solid white;
 }
 .btns .hire-btn:hover {
-  background-color: transparent;
+  /* background-color: transparent; */
   border: 2px solid white;
   box-shadow: rgba(252, 252, 252, 0.361) 0px 4px 15px;
 }
-.btns .hire-btn::after {
+/* .btns .hire-btn::after {
   content: "";
   display: block;
   position: absolute;
@@ -101,7 +102,7 @@
 }
 .btns .hire-btn:hover:after {
   width: 100%;
-}
+} */
 .btns .downloadbtn {
   border: 2px solid yellow;
   background-color: transparent;
@@ -163,5 +164,6 @@
     line-height: 40px;
   }
   .btns {
+    justify-content: center;
   }
 }

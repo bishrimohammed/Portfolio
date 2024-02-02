@@ -1,7 +1,7 @@
 import "./project.css";
 import clinic from "../../assets/clinic.png";
 import chat from "../../assets/chat.png";
-import { Fragment } from "react";
+
 const Projects = () => {
   return (
     <div className="project-section ">

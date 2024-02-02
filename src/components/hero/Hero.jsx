@@ -1,6 +1,7 @@
 import Navbar from "../Navbar/NavbarComponent";
 import "./hero.css";
-import img from "../../assets/photo_carton.png";
+// import img from "../../assets/photo_carton.png";
+import img from "../../assets/profile1.png";
 import resume from "../../assets/resume.pdf";
 import { TypeAnimation } from "react-type-animation";
 import { Button } from "react-bootstrap";
@@ -54,12 +55,9 @@ const Hero = () => {
 
               {/* <h2>I am Mern Stack Developer</h2> */}
               <p className="animate__animated animate__slideInLeft animate__slow">
-                I am an enthusiastic and adaptable individual, consistently
-                seeking out new opportunities to expand my skill set. Fueled by
-                a genuine passion for continuous learning, I am committed to
-                producing top-notch outcomes. Embracing a positive outlook and
-                cultivating a growth mindset, I am poised to make a significant
-                impact and accomplish remarkable achievements.
+                I am a passionate and adaptable individual, eager to learn and
+                achieve. With a positive outlook and a growth mindset, I am
+                poised to make a significant impact and accomplish great things.
               </p>
               <div className="btns">
                 <button className="hire-btn">Hire Me</button>
@@ -78,7 +76,7 @@ const Hero = () => {
               <img
                 src={img}
                 alt=""
-                className="img-fluid animate__animated animate__rotateInUpLeft animate__slower"
+                className="img-fluid img-responsive animate__animated animate__rotateInUpLeft animate__slower"
               />
             </div>
           </div>

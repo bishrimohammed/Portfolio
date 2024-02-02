@@ -30,7 +30,7 @@ const ContactMe = () => {
     <div className="contact-section">
       <div className="contact-text mb-3">
         <h2 className="contact__title">Contact Me</h2>
-        <p>Feel free to reach out to me for any questions or opportunities!</p>
+        <p>Feel free to contact me for any questions or opportunities!</p>
       </div>
       <div className="contact-box d-flex justify-content-center">
         <div className="contact-content">
