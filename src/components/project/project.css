@@ -46,6 +46,8 @@
   border: 1px solid rgba(255, 255, 0, 0.5) !important;
   box-shadow: rgba(255, 255, 0, 0.2) 0px 4px 24px;
   transition: ease-in-out 1s;
+  /* border: 2px solid #000; */
+  /* animation: rotateBorder 4s infinite linear; */
 }
 .project__card:hover {
   transform: scale(1.05);
@@ -112,5 +114,14 @@
 @media (min-width: 768px) {
   .project__card {
     width: 400px;
+  }
+}
+
+@keyframes rotateBorder {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
