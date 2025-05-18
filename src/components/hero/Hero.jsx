@@ -31,7 +31,7 @@ const Hero = () => {
                 </span>
               </h1>
               <div className="d-flex justify-content-lg-start flex-wrap justify-content-center gap-3 animate__animated animate__slideInDown animate__fast">
-                <h2>I am a Junior</h2>
+                <h2>I am a </h2>
                 <TypeAnimation
                   style={{
                     color: "yellow",
@@ -39,7 +39,7 @@ const Hero = () => {
                   className="typed"
                   sequence={[
                     500,
-                    " Mern Stack Developer", // initially rendered starting point
+                    " Software Developer", // initially rendered starting point
                     1000,
                     " backend Developer",
                     1000,
