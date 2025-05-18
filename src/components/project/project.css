@@ -63,12 +63,14 @@
 }
 
 .project__title {
-  font-size: 20px;
+  font-size: large;
   margin-bottom: 10px;
+  font-weight: bolder;
 }
 
 .project__description {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
+  font-size: 16px;
 }
 
 .project__features {

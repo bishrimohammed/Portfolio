@@ -16,18 +16,26 @@ const Projects = () => {
       <div className="project__container px-lg-5 flex-lg-row flex-column">
         <div className=" animate__animated animate__slideInLeft animate__slow">
           <div className="project__card">
-            <img
-              src={clinic}
-              alt="Project 2"
-              className="project__image img-fluid"
-            />
+            <div
+              // style={{ backgroundColor: "yellow" }}
+              className="p-1 bg-yellow"
+            >
+              <img
+                src={clinic}
+                alt="Project 2"
+                className="project__image img-fluid"
+              />
+            </div>
             <div className="project__details">
-              <h3 className="project__title">Clinic Management App</h3>
-              <p className="project__description mb-2">
-                Designed and implemented a Clinic Management App with various
-                functionalities to streamline workflow and improve efficiency
+              <h3 className="project__title">HaelthCare Management System</h3>
+              <p className="project__description">
+                A web-based system improving clinic operations with key
+                features: Patient Management: Registers patients, schedules
+                appointments, and tracks visits. Employee Management: Role-based
+                access control (RBAC) for secure user management. Billing &
+                Payments:
               </p>
-              <span className="mb-3">Key Functionalities:</span>
+              {/* <span className="mb-3">Key Functionalities:</span>
               <p className="mt-1 mb-1">Cashier :</p>
               <ul className="project__features ">
                 <li>
@@ -46,8 +54,8 @@ const Projects = () => {
                   Administrative: Control user access and configure the system
                   settings
                 </li>
-              </ul>
-              <div className="mt-2">
+              </ul> */}
+              <div className="mt-3">
                 <a
                   href="https://clinic.bishrimohammed.com/"
                   target="_blank"
@@ -61,6 +69,46 @@ const Projects = () => {
           </div>
         </div>
 
+        <div className="  animate__animated animate__slideInRight animate__slow">
+          <div className="project__card">
+            <img
+              src={chat}
+              alt="Project 2"
+              className="project__image img-fluid"
+            />
+            <div className="project__details">
+              <h3 className="project__title">Chat Application</h3>
+              <p className="project__description">
+                Designed and implemented a chat application where users can
+                connect and communicate with each other.
+              </p>
+              <ul className="project__features">
+                <li>
+                  User Registration and Login:Implemented secure user
+                  registration and login with password hashing for enhanced
+                  credential protection.
+                </li>
+                <li>
+                  Real-time Chat: Developed a real-time chat system that enables
+                  users to send and receive messages instantly.
+                </li>
+                <li>
+                  User-to-User Communication: Designed a user-friendly interface
+                  that allows users to search for other users and initiate
+                  private conversations.
+                </li>
+              </ul>
+              <a
+                href="https://github.com/bishrimohammed"
+                target="_blank"
+                rel="noreferrer"
+                className="project__btn ms-3"
+              >
+                View Repo
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="  animate__animated animate__slideInRight animate__slow">
           <div className="project__card">
             <img
